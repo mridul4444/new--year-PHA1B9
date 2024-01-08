@@ -59,7 +59,7 @@ margin: auto;
     color: #F00;
     text-align: center;
     font-family: Inter;
-    font-size: 88px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -70,7 +70,7 @@ margin: auto;
     color: #F00;
     text-align: center;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -81,7 +81,7 @@ margin: auto;
     color: #070211;
     text-align: center;
     font-family: Inter;
-    font-size: 48px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -89,7 +89,67 @@ margin: auto;
 
 /* image styles */
 .image{
-    width: 802.9px;
+    width: 550px;
     height: 500px;
     flex-shrink: 0;
+}
+
+/* section 3 */
+
+.section3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 100%), url('../resources/Vectorrr.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    justify-content: center;
+    margin-top: 150px;
+    gap: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+
+.overlay2{
+    padding-top: 40px;
+    height: 77%;
+    border-radius: 16px;
+
+}
+
+.welcome{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 62px;
+    font-weight: 800;
+    width: 500px;
+    letter-spacing: 5px;
+}
+.welcomepara{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    width: 700px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+.join-now{
+    color: white;
+    background: rgb(0,0,0);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.img24{
+    margin-top: 40px;
+    margin-right: 130px;
+    width: 200px;
 }
