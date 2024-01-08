@@ -178,3 +178,61 @@ margin: auto;
 .redt{
     color: #F00;
 }
+
+/* section 5 */
+.section5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+    margin: 58px;
+    margin-top: -10px;
+
+    
+}
+
+.offer-red{
+    color: #F00;
+    font-size: 20px;
+}
+
+.coming{
+    font-size: 52px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.papap{
+    width: 290px;
+}
+
+
+.man{
+    width: 280px;
+    height: 280px;
+    border: 7px solid red;
+    border-radius: 50%;
+
+}
+
+.man-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding: 15px;
+
+}
+
+.date{
+    font-size: 35px;
+    color: #F00;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.para{
+    width: 300px;
+}
+.happy{
+    width: 100px;
+    height: 100px;
+}
