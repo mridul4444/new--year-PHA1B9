@@ -1,0 +1,45 @@
+/* header styles */
+.bgimage{
+    width: 1320px;
+height: 600px;
+background-image: url('../resources/Banner\ Image.png');
+background-repeat: no-repeat;
+border-radius: 16px;
+justify-content: center;
+margin: auto;
+z-index: 2;
+position: relative;
+margin-top: 50px;
+
+}
+
+.small-title{
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.big-title{
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+width: 600px;
+margin: auto;
+}
+.overlay{
+    padding-top: 150px;
+    z-index: 50px;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 100%);
+    height: 75%;
+    border-radius: 16px;
+
+}   
