@@ -43,3 +43,53 @@ margin: auto;
     border-radius: 16px;
 
 }   
+
+/* section 2 */
+
+.second-part{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+.off-description{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 140px;
+    margin-bottom: 30px;
+}
+.holiday-deal{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.categories{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* image styles */
+.image{
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+}
