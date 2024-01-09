@@ -262,3 +262,38 @@ margin: auto;
     width: 550px;
     margin: auto;
 }
+.lady{
+    display: flex;
+    justify-content: end;
+    margin: 58px;
+
+}
+
+#wow-lady{
+    height: 450px;
+    width: 420px;
+}
+#discount{
+    border-radius: auto;
+    height: 240px;
+    width: 240px;
+    margin-right: -100px;
+    z-index: 3;
+    margin-top: 150px;
+}
+.red-bar{
+    margin: 47px;
+    display: flex;
+    margin-top: -75px;
+    position: relative;
+    height: 229px;
+
+}
+#gift-box{
+    z-index: 3;
+    width: 550px;
+    height: 400px;
+    position: absolute; 
+    top: -220px;
+    left: 50px; 
+}
