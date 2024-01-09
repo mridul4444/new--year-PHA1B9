@@ -385,14 +385,19 @@ margin: auto;
     width: 300px;
     height: 45px;
     border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 .sub-but{
     width: 130px;
-    height: 47px;
+    height: 46px;
     border: none;
     background-color: #F00;
     color:white;
     font-size: 17px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: -5px;
 }
 /* footer */
 .footer{
@@ -408,11 +413,41 @@ margin: auto;
     display: flex;
     justify-content: space-between;
     margin-right: 50px;
+    align-items: center;
+    padding-bottom: 25px;
 
 }
 .logo-add{
 
-    margin-right: 150px;
-    margin-top: -16px;
-    margin-left: -390px;
+    margin-right: 100px;
+    margin-top: -10px;
+    margin-left: -680px;
+
+}
+
+.soc-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    width: 30px;
+    margin: auto;
+    
+}
+
+.last-footer{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 40px;
+}
+.border1{
+    background-color: rgb(19, 12, 12);
+    width: 100%;
+    height: 2px;
+}
+.border2{
+    background-color: grey;
+    width: 100%;
+    height: 2px;
 }
